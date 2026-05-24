@@ -31,9 +31,9 @@ function SignUp({setToken}){
   }, [timeLeft]);
 
     async function handleSendOtp(e){
-         // console.log(BASE_URL)
+         console.log(BASE_URL)
       e.preventDefault();
-      // const email=form.email
+      const email=form.email
  console.log(email)
       if(!form.fullname){
         toast.warn("Enter full name")
