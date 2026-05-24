@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
-import dotenv from "dotenv";
-mongoose.connect(process.env.MONGO_URL)
-dotenv.config();
+// import dotenv from "dotenv";
+// mongoose.connect(process.env.MONGO_URL)
+// dotenv.config();
 const url=process.env.MONGO_URL;
 const dbName="todo-project";
 
