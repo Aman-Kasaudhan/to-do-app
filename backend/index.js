@@ -129,10 +129,10 @@ app.post("/send-otp",async(req,res)=>{
     })
 // db.collectionName.dropIndex("createdAt_1")
    
-// collection.createIndex(
-//    { createdAt: 1 },
-//    { expireAfterSeconds: 120}
-// );
+collection.createIndex(
+   { createdAt: 1 },
+   { expireAfterSeconds: 120}
+);
         res.send({
             message:"otp sent successfully",
             success:true,
