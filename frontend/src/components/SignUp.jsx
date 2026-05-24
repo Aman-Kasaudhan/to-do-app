@@ -34,7 +34,7 @@ function SignUp({setToken}){
          console.log(BASE_URL)
       e.preventDefault();
       const email=form.email
-
+ console.log(email)
       if(!form.fullname){
         toast.warn("Enter full name")
         return;
