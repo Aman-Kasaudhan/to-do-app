@@ -5,7 +5,7 @@ import { Resend } from 'resend';
 import {connection,collectionName} from './dbconfig.js'
 import { ObjectId } from "mongodb";
 const app=e();
-app.use(cors({origin:"https://to-do-app-two-blond-87.vercel.app"}));
+app.use(cors({origin:"https://to-do-app-two-blond-87.vercel.app/"}));
 app.use(e.json())
 app.post("/add-task/:id",async(req,res)=>{
     const id=req.params.id
